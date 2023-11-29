@@ -59,7 +59,7 @@ REGEX_WARNINGS = {
     "id": [r"^\w+\d\d\d\d"], # Years in keys should be in two-digit format.
 }
 
-ALWAYS_WARN_IF_MISSING = [ "year", "author", "title" ]
+ALWAYS_WARN_IF_MISSING = [ "year", "title" ]
 
 WARN_IF_MISSING_MAP = {
         "inproceedings" : ALWAYS_WARN_IF_MISSING + ["month"],
